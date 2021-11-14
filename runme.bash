@@ -5,7 +5,9 @@
 -------------------
 1. Tensorflow 2.7.0
 2. CUDA 11.2
-   https://developer.nvidia.com/cuda-11.2.0-download-archive
+      https://developer.nvidia.com/cuda-11.2.0-download-archive
+         # wget https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.27.04_linux.run
+         # sudo sh cuda_11.2.0_460.27.04_linux.run
 3. CUDNN 8.1
 
 
