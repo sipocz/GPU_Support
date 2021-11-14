@@ -3,6 +3,7 @@ sudo apt install python3-pip
 
 pip install tensorflow  # tensorflow install v:  2.7.0 tensorflow-2.7.0-cp38-cp38-manylinux2010_x86_64.whl 
 # DOC: https://www.tensorflow.org/install/pip
+# CUDA toolkit https://developer.nvidia.com/cuda-toolkit-archive
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt install nvidia-driver-440
 
