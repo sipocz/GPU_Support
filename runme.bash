@@ -1,7 +1,7 @@
 # python version: 3.8.10
 sudo apt install python3-pip
 
-
+# https://developer.nvidia.com/rdp/cudnn-archive
 
 
 
@@ -38,6 +38,7 @@ EOL
 sudo apt install software-properties-common
 
 #
+# https://stackoverflow.com/questions/423950/rounded-swing-jbutton-using-java
 
 NVIDIA_DRIVER_VERSION=$(sudo apt-cache search 'linux-modules-nvidia-[0-9]+-gcp$' | awk '{print $1}' | sort | tail -n 2 | head -n 1 | awk -F"-" '{print $4}')
 
