@@ -1,3 +1,10 @@
+1. tensorflow 2.4.0
+2. CUDNN 8.0
+3. CUDA 11.0
+
+
+
+
 # python version: 3.8.10
 sudo apt install python3-pip
 
