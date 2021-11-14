@@ -5,6 +5,7 @@
 -------------------
 1. Tensorflow 2.7.0
 2. CUDA 11.2
+   https://developer.nvidia.com/cuda-11.2.0-download-archive
 3. CUDNN 8.1
 
 
