@@ -17,6 +17,8 @@ extact
 add to lib path
 export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-10.1/include:$LD_LIBRARY_PATH
+/home/sipocz/cudadriver/cuda-11.2/cuda/include
+
 
 
 
