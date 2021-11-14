@@ -3,6 +3,8 @@
 3. CUDA 11.0
 
 -------------------
+sudo apt install gcc
+
 1. Tensorflow 2.7.0
 2. CUDA 11.2
       https://developer.nvidia.com/cuda-11.2.0-download-archive
