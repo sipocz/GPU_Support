@@ -1,5 +1,5 @@
 
-Version |	Python version |	Compiler |	Build tools |	cuDNN	| CUDA
+|Version |	Python version |	Compiler |	Build tools |	cuDNN	| CUDA
 |---|---|---|---|---|---|---|
 | tensorflow-2.7.0 | 3.7-3.9	| GCC 7.3.1 |	Bazel 3.7.2 |	8.1 |	11.2
 | tensorflow-2.6.0 | 3.6-3.9	| GCC 7.3.1 |	Bazel 3.7.2 |	8.1 |	11.2
