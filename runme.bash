@@ -5,13 +5,22 @@ sudo dpkg -i ${LAMBDA_REPO} && rm -f ${LAMBDA_REPO} && \
 sudo apt-get update && sudo apt-get install -y lambda-stack-cuda
 sudo reboot
 #---------------------------
+#------- Install jupyterlab 
+pip install jupyterlab
+export PATH="$HOME/.local/bin:$PATH" 
+#---------------------------
+#------- Google chrome install
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+#---------------------------
 #------ NODE.JS install for Plotly :-)
 curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 sudo apt-get install -y nodejs
+./jupyter-labextension install @jupyter-widgets/jupyterlab-manager jupyterlab-plotly
 #---------------------------
-
-
-
+#------- Run jupyterlab
+jupyter-lab
+#---------------------------
 
 #----- END ----
 
